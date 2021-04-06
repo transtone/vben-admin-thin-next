@@ -8,7 +8,7 @@
 
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import { ConfigProvider } from 'ant-design-vue';
+  import { ConfigProvider, message } from 'ant-design-vue';
   import { AppProvider } from '/@/components/Application';
 
   import { initAppConfigStore } from '/@/logics/initAppConfig';
